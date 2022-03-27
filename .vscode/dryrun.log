@@ -1,0 +1,8 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/nmcilwee/CS202/Assignments/cs-202-pa3-McIlwee-Nevan'
+g++ -std=c++11 -c main.cpp
+g++ -std=c++11 -c money.cpp
+ 
+g++ -std=c++11 -o PA3 main.o money.o
+make: Leaving directory '/home/nmcilwee/CS202/Assignments/cs-202-pa3-McIlwee-Nevan'
+ 
